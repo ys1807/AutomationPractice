@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="33192" started-at="2019-04-07T19:43:32Z" finished-at="2019-04-07T19:44:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="33192" started-at="2019-04-07T19:43:32Z" finished-at="2019-04-07T19:44:05Z">
+      <class name="testCases.BuyOnline">
+        <test-method status="PASS" signature="initReport()[pri:0, instance:testCases.BuyOnline@6f7fd0e6]" name="initReport" is-config="true" duration-ms="348" started-at="2019-04-07T15:43:32Z" finished-at="2019-04-07T15:43:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:testCases.BuyOnline@6f7fd0e6]" name="initProperties" is-config="true" duration-ms="1" started-at="2019-04-07T15:43:32Z" finished-at="2019-04-07T15:43:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="initBrowser(java.lang.String)[pri:0, instance:testCases.BuyOnline@6f7fd0e6]" name="initBrowser" is-config="true" duration-ms="4749" started-at="2019-04-07T15:43:32Z" finished-at="2019-04-07T15:43:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="buySummerDress()[pri:0, instance:testCases.BuyOnline@6f7fd0e6]" name="buySummerDress" duration-ms="27148" started-at="2019-04-07T15:43:37Z" finished-at="2019-04-07T15:44:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buySummerDress -->
+        <test-method status="PASS" signature="endBrowser()[pri:0, instance:testCases.BuyOnline@6f7fd0e6]" name="endBrowser" is-config="true" duration-ms="1277" started-at="2019-04-07T15:44:04Z" finished-at="2019-04-07T15:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endBrowser -->
+        <test-method status="PASS" signature="endProperties()[pri:0, instance:testCases.BuyOnline@6f7fd0e6]" name="endProperties" is-config="true" duration-ms="2" started-at="2019-04-07T15:44:05Z" finished-at="2019-04-07T15:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endProperties -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:testCases.BuyOnline@6f7fd0e6]" name="endReport" is-config="true" duration-ms="413" started-at="2019-04-07T15:44:05Z" finished-at="2019-04-07T15:44:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testCases.BuyOnline -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

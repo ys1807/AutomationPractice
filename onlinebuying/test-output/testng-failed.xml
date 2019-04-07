@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="testCases.BuyOnline">
+        <methods>
+          <include name="buySummerDress"/>
+          <include name="initBrowser"/>
+          <include name="endProperties"/>
+          <include name="initProperties"/>
+          <include name="endBrowser"/>
+          <include name="endReport"/>
+          <include name="initReport"/>
+        </methods>
+      </class> <!-- testCases.BuyOnline -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
